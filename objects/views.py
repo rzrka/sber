@@ -15,6 +15,8 @@ class ObjectsDirectionModelViewSet(APIView):
 
     def get(self, request, pk: str or None = None):
         """
+        param
+        pk : первичный ключ Direction
         Метод для получение всех предметов у определенного направления
         """
         name_direct = get_object_or_404(Directions, id=pk).name
