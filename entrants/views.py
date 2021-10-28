@@ -49,7 +49,7 @@ class EntrantsModelViewSet(ViewSet):
 
     def patch(self, request, pk: str or None = None):
         """
-        Метод для изменения поступающего
+        Метод для изменения одного или несколько полей поступающего
         """
         entrant = get_object_or_404(Entrants, id=pk)
         data = request.data

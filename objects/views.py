@@ -61,7 +61,7 @@ class ObjectsModelViewSet(ViewSet):
 
     def patch(self, request, pk: str or None = None):
         """
-        Метод для изменения предмета
+        Метод для изменения одного или несколько полей предмета
         """
         objects = get_object_or_404(Objects, id=pk)
         data = request.data

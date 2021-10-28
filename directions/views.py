@@ -48,7 +48,7 @@ class DirectionsModelViewSet(ViewSet):
 
     def patch(self, request, pk: str or None = None):
         """
-        Метод для изменения направления
+        Метод для изменения одного или несколько полей направления
         """
         direction = get_object_or_404(Directions, id=pk)
         data = request.data
