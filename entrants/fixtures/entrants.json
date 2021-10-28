@@ -1,0 +1,26 @@
+[
+  {
+    "model": "entrants.entrants",
+    "pk": "63833ea8-aad8-4c4e-8f82-2d0d7a991b74",
+    "fields": {
+      "name": "test1",
+      "surname": "test1",
+      "middlename": "test1",
+      "birthday": "2000-01-01",
+      "subject": "920e072b-3912-4a88-9fc6-03ef10097d6c",
+      "mark": 58
+    }
+  },
+  {
+    "model": "entrants.entrants",
+    "pk": "bed48f1a-70ca-4113-86e4-a3bd2c3b4e5d",
+    "fields": {
+      "name": "test2",
+      "surname": "test2",
+      "middlename": "test2",
+      "birthday": "2001-01-01",
+      "subject": "439c5816-0141-4c1f-b467-bde6e8309d73",
+      "mark": 71
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "model": "objects.objects",
+    "pk": "920e072b-3912-4a88-9fc6-03ef10097d6c",
+    "fields": {
+      "name": "math",
+      "mark": 50
+    }
+  },
+  {
+    "model": "objects.objects",
+    "pk": "439c5816-0141-4c1f-b467-bde6e8309d73",
+    "fields": {
+      "name": "russian",
+      "mark": 40
+    }
+  }
+]

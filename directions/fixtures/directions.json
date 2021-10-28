@@ -1,0 +1,20 @@
+[
+  {
+    "model": "directions.directions",
+    "pk": "6cc8092c-1f2b-49c0-8bc2-6dd1556b6e8b",
+    "fields": {
+      "name":"philosoph",
+      "entrant": "63833ea8-aad8-4c4e-8f82-2d0d7a991b74",
+      "object" : "920e072b-3912-4a88-9fc6-03ef10097d6c"
+    }
+  },
+  {
+    "model": "directions.directions",
+    "pk": "ef0f0ec6-61aa-4760-8e1e-39669a6bff97",
+    "fields": {
+      "name":"informatika",
+      "entrant": "63833ea8-aad8-4c4e-8f82-2d0d7a991b74",
+      "object" : "439c5816-0141-4c1f-b467-bde6e8309d73"
+    }
+  }
+]
