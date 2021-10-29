@@ -7,6 +7,8 @@
       "surname": "test1",
       "middlename": "test1",
       "birthday": "2000-01-01",
+      "pass_number": 1234,
+      "pass_series": 15487,
       "subject": "920e072b-3912-4a88-9fc6-03ef10097d6c",
       "mark": 58
     }
@@ -19,6 +21,8 @@
       "surname": "test2",
       "middlename": "test2",
       "birthday": "2001-01-01",
+      "pass_number": 1234,
+      "pass_series": 56723,
       "subject": "439c5816-0141-4c1f-b467-bde6e8309d73",
       "mark": 71
     }

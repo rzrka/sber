@@ -23,6 +23,8 @@ class EntrantsTests(APITestCase):
             surname='test',
             middlename='test',
             birthday='2000-01-01',
+            pass_number=1234,
+            pass_series=56723,
             subject=new_objects,
             mark=50,
         )
@@ -46,6 +48,8 @@ class EntrantsTests(APITestCase):
             surname='test',
             middlename='test',
             birthday='2000-01-01',
+            pass_number=1234,
+            pass_series=56723,
             subject=new_objects,
             mark=50,
         )
@@ -69,6 +73,8 @@ class EntrantsTests(APITestCase):
                 "surname": "test2",
                 "middlename": "test2",
                 "birthday": '2001-02-02',
+                "pass_number": 1234,
+                "pass_series": 56723,
                 "subject": new_objects.id,
                 "mark": 60,
                 }
@@ -90,6 +96,8 @@ class EntrantsTests(APITestCase):
             surname='test',
             middlename='test',
             birthday='2000-01-01',
+            pass_number=1234,
+            pass_series=56723,
             subject=new_objects,
             mark=50,
         )
@@ -119,6 +127,8 @@ class EntrantsTests(APITestCase):
             surname='test',
             middlename='test',
             birthday='2000-01-01',
+            pass_number=1234,
+            pass_series=56723,
             subject=new_objects,
             mark=50,
         )

@@ -95,6 +95,8 @@ class ObjectsTests(APITestCase):
             surname='test',
             middlename='test',
             birthday='2000-01-01',
+            pass_number=1234,
+            pass_series=56723,
             subject=new_objects,
             mark=50,
         )

@@ -39,6 +39,8 @@ class EntrantsModelViewSet(ViewSet):
             surname=data.get('surname'),
             middlename=data.get('middlename'),
             birthday=data.get('birthday'),
+            pass_number=data.get('pass_number'),
+            pass_series=data.get('pass_series'),
             subject=subject_id,
             mark=data.get('mark'),
         )

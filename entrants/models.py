@@ -10,6 +10,8 @@ class Entrants(models.Model):
     surname = models.CharField(max_length=64)
     middlename = models.CharField(max_length=64)
     birthday = models.DateField()
+    pass_number = models.IntegerField()
+    pass_series = models.IntegerField()
     subject = models.ForeignKey(Objects, on_delete=models.DO_NOTHING)
     mark = models.PositiveIntegerField()
 
